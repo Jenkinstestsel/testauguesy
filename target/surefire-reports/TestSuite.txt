@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.519 sec <<< FAILURE! - in TestSuite
+Valid_login(testScript.Scenrio_Login)  Time elapsed: 2.453 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	page not loaded expected [rediff] but found [rediff.com ! Books Online],
+	failed as the expected was qtpworld2008  and actual is qtpworld2008 g expected [qtpworld2008] but found [qtpworld2008 g]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at testScript.Scenrio_Login.Valid_login(Scenrio_Login.java:105)
+
